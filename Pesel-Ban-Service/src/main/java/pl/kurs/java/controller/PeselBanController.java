@@ -32,7 +32,7 @@ public class PeselBanController {
         peselBanRepository.saveAndFlush(pesel);
         model.addAttribute("pesels", peselBanRepository.findAll());
 
-        return "redirect:/banService";
+        return "redirect:";
     }
 
     @GetMapping("/delete")
@@ -43,6 +43,6 @@ public class PeselBanController {
         }
         model.addAttribute("pesels", peselBanRepository.findAll());
 
-        return "redirect:/banService";
+        return "redirect:";
     }
 }
