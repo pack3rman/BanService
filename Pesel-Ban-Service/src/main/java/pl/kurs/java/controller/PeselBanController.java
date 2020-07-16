@@ -9,9 +9,8 @@ import pl.kurs.java.model.BanedPesel;
 import pl.kurs.java.repository.PeselBanRepository;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
-@RestController
+@Controller
 @RequestMapping("")
 @RequiredArgsConstructor
 public class PeselBanController {
